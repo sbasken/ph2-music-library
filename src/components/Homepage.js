@@ -2,11 +2,13 @@ import React from 'react'
 import Search from './Search'
 import SongList from './SongList'
 
-function Homepage() {
+function Homepage({onSearch, songs}) {
+
   return (
-    <div>Homepage
-        <Search />
-        <SongList />
+    <div> 
+        <h1>Your Personal Music Library!</h1>
+        <Search onSearch={onSearch}/>
+        <SongList songs={songs}/>
     </div>
   )
 }

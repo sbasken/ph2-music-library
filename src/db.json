@@ -1,0 +1,54 @@
+{
+  "Songs": [
+    {
+      "id": 1,
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg",
+      "album": "Led Zeppelin IV",
+      "genre": "classic rock",
+      "likes": false,
+      "youtube": "https://www.google.com/search?q=led+zeppelin+stairway+to+heaven+album&sxsrf=AJOqlzUCZzff4a3TKP-B0K2agX3zQ5RpRg:1678120457041&source=lnms&tbm=vid&sa=X&ved=2ahUKEwietO3t3cf9AhVxEDQIHTQGA9wQ_AUoAXoECAIQAw&biw=1056&bih=696&dpr=2#fpstate=ive&vld=cid:77b0b2eb,vid:QkF3oxziUI4"
+    },
+    {
+      "id": 2,
+      "title": "Spanish Castle Magic",
+      "artist": "Jimi Hendrix",
+      "image": "https://en.wikipedia.org/wiki/File:Axiscover.jpg",
+      "album": "Axis: Bold as Love",
+      "genre": "classic rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=P6lDmcrRths"
+    },
+    {
+      "id": 3,
+      "title": "Tooth and Claw",
+      "artist": "Animals as Leaders",
+      "image": "https://en.wikipedia.org/wiki/File:The_Joy_Of_Motion2014.jpg",
+      "album": "The Joy of Motion",
+      "genre": "progressive rock",
+      "likes": false,
+      "youtube": "https://www.google.com/search?q=Tooth+and+Claw+animals+as+leaders&biw=1056&bih=696&tbm=vid&sxsrf=AJOqlzU07zBy3g-GwE7a-TNZllcCpdIWuQ%3A1678120458661&ei=ChYGZM6DKMHg0PEP9I-uoA8&ved=0ahUKEwjOsNDu3cf9AhVBMDQIHfSHC_QQ4dUDCA0&uact=5&oq=Tooth+and+Claw+animals+as+leaders&gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyBQgAEIAEMgUIABCABDIICAAQFhAeEA8yCAgAEBYQHhAPMgYIABAWEB4yBQgAEIYDMgUIABCGAzIFCAAQhgMyBQgAEIYDOgQIIxAnOgoIABCABBAUEIcCOggIABCABBCxAzoHCCMQ6gIQJzoECAAQQzoKCAAQsQMQgwEQQzoLCAAQgAQQsQMQgwE6CAgAELEDEIMBOgUIABCRAjoHCAAQsQMQQzoHCAAQgAQQCjoICAAQFhAeEApQ8wZYzldgmlloAHAAeAKAAagBiAGXKZIBBDYzLjiYAQCgAQGwAQPAAQE&sclient=gws-wiz-video#fpstate=ive&vld=cid:bf18d2db,vid:9P4GsF1zdzM"
+    },
+    {
+      "id": 4,
+      "title": "Black Dog",
+      "artist": "Led Zeppelin",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg",
+      "album": "Led Zeppelin IV",
+      "genre": "classic rock",
+      "likes": false,
+      "youtube": "https://www.google.com/search?q=black+dog+led+zeppelin+lyrics&sxsrf=AJOqlzVLLwBjQOXIkwbmejYmjNkbvxF7rw:1678132328093&source=lnms&tbm=vid&sa=X&ved=2ahUKEwib-7SKisj9AhX1ADQIHXTgBIEQ_AUoAXoECAEQAw&biw=1056&bih=697&dpr=1#fpstate=ive&vld=cid:d765ae77,vid:s3yBf6LeWzo"
+    },
+    {
+      "id": 5,
+      "title": "Naive",
+      "artist": "The Kooks",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/80/Naive_cover.jpg",
+      "album": "Inside In/Inside Out",
+      "genre": "Alternative indie pop rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=jkaMiaRLgvY"
+    }
+  ]
+}
