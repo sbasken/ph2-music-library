@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 
-function NewForm({ onAddSong }) {
+function EditSong({ songToEdit, onUpdateSong }) {
   const [ formData, setFormData ] = useState({
     title: "",
     artist: "",
@@ -13,6 +14,8 @@ function NewForm({ onAddSong }) {
 
   const { title, artist, image, album, genre, youtube } = formData
 
+  const { id } = useParams()
+
   const handleChange = (e) => {
     const key = e.target.name
     const value = e.target.value
@@ -22,23 +25,30 @@ function NewForm({ onAddSong }) {
     })
   }
 
+  useEffect(() => {
+    fetch(`http://localhost:3000/Songs/${id}`)
+        .then(res => res.json())
+        .then(setFormData)
+  }, [id])
+
   const handleSubmit = (e) => {
     e.preventDefault()
-    fetch("http://localhost:3000/Songs", {
-      method: "POST",
+    fetch(`http://localhost:3000/Songs/${id}`, {
+      method: "PATCH",
       headers: {
         "Content-Type": "application/json"
       },
       body: JSON.stringify(formData)
     })
       .then(res => res.json())
-      .then(newSong => onAddSong(newSong))
+      .then(updatedSong => onUpdateSong(updatedSong))
   }
 
   return (
     <section>
-        <form onSubmit={(e)=>handleSubmit(e)} className="form">
-          <h2> Add New Song</h2>
+        <form onSubmit={handleSubmit}className="form">
+          <h2>Edit Song</h2>
+          <p>Please select a song to edit in home if you haven't already!</p>
 
             <label>Title:</label>
             <input 
@@ -100,11 +110,11 @@ function NewForm({ onAddSong }) {
               value={youtube}
               onChange={handleChange}
             />
-          <br></br>
+            <br></br>
           <button type="submit" className="btn btn-primary btn-customized mt-4">Add Song</button>
         </form>
     </section>
   )
 }
 
-export default NewForm
+export default EditSong

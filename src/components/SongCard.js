@@ -1,4 +1,6 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+
 const Front =({ song }) => {
   return (
     <div>
@@ -19,9 +21,17 @@ const Back =({song}) => {
   )
 }
 
-function SongCard({song}) {
+function SongCard({ song, ondDeleteSong }) {
   const [showFront, setShowFront] = useState(true)
   const [ liked, setLiked ] = useState(song.likes)
+
+  const handleDelete = () => {
+    fetch(`http://localhost:3000/Songs/${song.id}`, {
+      method: "DELETE"
+    })
+      .then(res => res.json())
+      .then(() => ondDeleteSong(song.id))
+  }
   
 
   const toggleFront= () => {
@@ -30,8 +40,7 @@ function SongCard({song}) {
 
   const toggleLike = () => {
     const updatedLikes = !liked;
-    console.log(updatedLikes)
-    setLiked (updatedLikes);
+    setLiked(updatedLikes);
     fetch(`http://localhost:3000/Songs/${song.id}`,{
       method: 'PATCH',
       headers: {
@@ -43,12 +52,20 @@ function SongCard({song}) {
   }
 
   return (
-    <div>
-      <div onClick={toggleFront} id="songcard">
+    <div id="songcard">
+      <div onClick={toggleFront}>
         {showFront ? <Front song={song}/> : <Back song={song} />}
       </div>
-      <button class="like-button" onClick={toggleLike}>{(liked) ? "❤️" : "♡"}</button>
-      </div>
+      <section>
+        <button className="like-button" onClick={toggleLike}>{(liked) ? "❤️" : "♡"}</button>
+        <Link 
+          to={`/${song.id}/edit`} 
+          className="button edit-button"
+        >✎
+        </Link>
+        <button className="delete-button" onClick={handleDelete}>🗑️</button>
+      </section>
+    </div>
   )
 }
 

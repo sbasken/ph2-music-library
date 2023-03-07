@@ -4,12 +4,29 @@ import { Route, Switch } from "react-router-dom";
 import NewForm from "./NewForm";
 import About from "./About";
 import { useState, useEffect } from "react"
+import EditSong from "./EditSong"
 
 const SongAPI ="http://localhost:3000/Songs";
 
 function App() {
   const [songs, setSongs] = useState([]);
   const [filteredSongs, setFilteredSongs] = useState([]);
+
+  const updateSong = (updatedSong) => {
+    const updatedSongs = songs.map(song => {
+      if (song.id === updatedSong.id) {
+        return updatedSong;
+      } else {
+        return song
+      }
+    })
+    setSongs(updatedSongs)  }
+  
+
+  const deleteSong = (id) => {
+    const updatedSongs = songs.filter(song => song.id !== id)
+    setSongs(updatedSongs)
+  }
 
   const addSong = (newSong) => {
     const updatedSongs = [...songs, newSong]
@@ -53,7 +70,7 @@ function App() {
       <Switch>
          <Route exact path="/">
             <div className="row">
-              <Homepage songs={filteredSongs} onSearch={handleSearch} />
+              <Homepage songs={filteredSongs} onSearch={handleSearch} ondDeleteSong={deleteSong}/>
             </div>
          </Route>
          <Route path="/newform">
@@ -64,6 +81,11 @@ function App() {
          <Route path="/about">
             <div className="row">
               <About />
+            </div>
+         </Route>
+         <Route path="/:id/edit">
+            <div className="row">
+              <EditSong onUpdateSong={updateSong}/>
             </div>
          </Route>
       </Switch>

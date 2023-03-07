@@ -45,6 +45,16 @@ function NavBar() {
       >
         New Form
       </NavLink>
+      <NavLink 
+        to="/editform"
+        style={linkStyles}
+        activeStyle={{
+          background: "#0081e8"
+        }}
+        className="navbar button"
+      >
+        Edit Form
+      </NavLink>
     </div>
   )
 }

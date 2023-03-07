@@ -14,7 +14,7 @@
       "id": 2,
       "title": "Spanish Castle Magic",
       "artist": "Jimi Hendrix",
-      "image": "https://en.wikipedia.org/wiki/File:Axiscover.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/85/Axiscover.jpg",
       "album": "Axis: Bold as Love",
       "genre": "classic rock",
       "likes": false,
@@ -24,7 +24,7 @@
       "id": 3,
       "title": "Tooth and Claw",
       "artist": "Animals as Leaders",
-      "image": "https://en.wikipedia.org/wiki/File:The_Joy_Of_Motion2014.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/The_Joy_Of_Motion2014.jpg",
       "album": "The Joy of Motion",
       "genre": "progressive rock",
       "likes": false,
@@ -49,6 +49,106 @@
       "genre": "Alternative indie pop rock",
       "likes": false,
       "youtube": "https://www.youtube.com/watch?v=jkaMiaRLgvY"
+    },
+    {
+      "id": 6,
+      "title": "All Blues",
+      "artist": "Miles Davis",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/MilesDavisKindofBlue.jpg",
+      "album": "Kind of Blue",
+      "genre": "Jazz",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=-488UORrfJ0"
+    },
+    {
+      "id": 7,
+      "title": "Crosstown Traffic",
+      "artist": "Jimi Hendrix",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f2/Jimi_Hendrix_-_Electric_Ladyland.jpg",
+      "album": "Electric Ladyland",
+      "genre": "classic rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=0NWYXJ04KCM"
+    },
+    {
+      "title": "Pink + White",
+      "artist": "Frank Ocean",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg",
+      "album": "Blonde",
+      "genre": "R&B",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=uzS3WG6__G4",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "title": "Mr. Brightside",
+      "artist": "The Killers",
+      "image": "https://i1.sndcdn.com/artworks-0Qb2s2Evp3AMws8y-1R6xCA-t500x500.jpg",
+      "album": "Hot Fuss",
+      "genre": "Alternative rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=gGdGFtwCNBE"
+    },
+    {
+      "id": 10,
+      "title": "Somebody That I Used to Know",
+      "artist": "Gotye",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/Gotye_featuring_Kimbra_-_Somebody_That_I_Used_to_Know.png",
+      "album": "Making Mirrors",
+      "genre": "Art pop alternative rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=8UVNT4wvIGY"
+    },
+    {
+      "id": 11,
+      "title": "",
+      "artist": "",
+      "image": "",
+      "album": "",
+      "genre": "",
+      "likes": false,
+      "youtube": ""
+    },
+    {
+      "id": 12,
+      "title": "",
+      "artist": "",
+      "image": "",
+      "album": "",
+      "genre": "",
+      "likes": false,
+      "youtube": ""
+    },
+    {
+      "id": 13,
+      "title": "",
+      "artist": "",
+      "image": "",
+      "album": "",
+      "genre": "",
+      "likes": false,
+      "youtube": ""
+    },
+    {
+      "id": 14,
+      "title": "",
+      "artist": "",
+      "image": "",
+      "album": "",
+      "genre": "",
+      "likes": false,
+      "youtube": ""
+    },
+    {
+      "id": 15,
+      "title": "",
+      "artist": "",
+      "image": "",
+      "album": "",
+      "genre": "",
+      "likes": false,
+      "youtube": ""
     }
   ]
 }
