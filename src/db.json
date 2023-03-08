@@ -102,13 +102,13 @@
     },
     {
       "id": 11,
-      "title": "",
-      "artist": "",
-      "image": "",
-      "album": "",
-      "genre": "",
+      "title": "Boulevard Of Broken Dreams",
+      "artist": "Green Day",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/Green_Day_-_Boulevard_of_Broken_Dreams_cover.jpg",
+      "album": "american idiot",
+      "genre": "emo hard rock",
       "likes": false,
-      "youtube": ""
+      "youtube": "https://www.youtube.com/watch?v=Soa3gO7tL-c"
     },
     {
       "id": 12,
@@ -132,16 +132,6 @@
     },
     {
       "id": 14,
-      "title": "",
-      "artist": "",
-      "image": "",
-      "album": "",
-      "genre": "",
-      "likes": false,
-      "youtube": ""
-    },
-    {
-      "id": 15,
       "title": "",
       "artist": "",
       "image": "",
