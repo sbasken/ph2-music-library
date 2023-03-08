@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 
 function NewForm({ onAddSong }) {
   const [ formData, setFormData ] = useState({
@@ -12,6 +13,8 @@ function NewForm({ onAddSong }) {
   })
 
   const { title, artist, image, album, genre, youtube } = formData
+
+  const history = useHistory()
 
   const handleChange = (e) => {
     const key = e.target.name
@@ -33,12 +36,13 @@ function NewForm({ onAddSong }) {
     })
       .then(res => res.json())
       .then(newSong => onAddSong(newSong))
+      history.push('/')
   }
 
   return (
-    <section>
-        <form onSubmit={(e)=>handleSubmit(e)} className="form">
-          <h2> Add New Song</h2>
+    <section className="form">
+        <form onSubmit={(e)=>handleSubmit(e)}>
+          <h1> Add New Song</h1>
 
             <label>Title:</label>
             <input 

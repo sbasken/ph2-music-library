@@ -45,8 +45,8 @@ function NavBar() {
       >
         New Form
       </NavLink>
-      <NavLink 
-        to="/editform"
+      {/* <NavLink 
+        to="/edit"
         style={linkStyles}
         activeStyle={{
           background: "#0081e8"
@@ -54,7 +54,7 @@ function NavBar() {
         className="navbar button"
       >
         Edit Form
-      </NavLink>
+      </NavLink> */}
     </div>
   )
 }

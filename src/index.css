@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(#78d5ff,#0081e8)
+}
+
 #songcard {
   background: rgb(241, 232, 232);
   border-radius: 10px;
@@ -5,10 +10,14 @@
   border: rgb(99, 26, 224) solid 1px;
   padding: 1rem;
   width: 15rem;
-  height: 15rem;
+  height: 16rem;
   display: inline-grid;
   margin: 1rem 2rem;
   box-shadow: 3px 4px #000000;  
+}
+
+#songcard:hover {
+  background-color: seashell
 }
 
 #albumcover {
@@ -23,13 +32,13 @@
   width: 50%;
   min-width: 300px;
   margin: 0 auto;
-  border: 2px solid rgb(99, 26, 224);
   padding: 1.75rem;
-  text-align: center
+  text-align: center;
 }
 
-.form h2 {
-  margin-bottom: 1rem;
+.form label {
+  font-size: 1.2rem;
+  padding: 0.5rem;
 }
 
 .form button[type="submit"] {
@@ -40,26 +49,23 @@
   margin-bottom: 0.75rem;
   text-align: center;
   margin: auto;
+  font-size: 1.2rem;
 }
 
 input {
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
   border: none;
   font-size: 1.25rem;
-  font-weight: bold;
   transition: all 0.3s;
-  border: 2px solid rgb(99, 26, 224);
-}
-
-body {
-  background: radial-gradient(#78d5ff,#0081e8)
+  /* border: 2px solid rgb(99, 26, 224); */
 }
 
 .navbar {
   padding-top: 0.75rem;
   background-color: aliceblue;
-  padding-bottom: 0.5rem
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 #searchelements {
@@ -67,9 +73,9 @@ body {
   margin-left: 5px;
   margin-top: 15px;}
 
-  #searchterm {
-    border-radius: 5px;
-  }
+#searchterm {
+  border-radius: 5px;
+}
   
 #songcard section button {
   width: 3rem;
@@ -80,16 +86,25 @@ body {
 #songcard section .button {
   width: 3rem;
   height: 2.3rem;
-  margin: 0.5rem;
-  border-color: black;
-  background-color: white;
+  padding: 0.54rem 1rem;
+  border: 1px solid gray;
+  background-color: #EFEFEF;
+  border-radius: 2px;
+  color: gray;
 }
 
 h1 {
-    text-align: center;
-    color:rgb(251, 251, 251);
-    padding-top: 2rem;
-    font-size: 50px;
-  }
+  text-align: center;
+  color:rgb(251, 251, 251);
+  padding-top: 2rem;
+  font-size: 50px;
+}
+
+.about {
+  width: 80%;
+  font-size: 1.75rem;
+  text-align: center;
+  margin: auto;
+}
 
   

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useHistory } from 'react-router-dom'
 
-function EditSong({ songToEdit, onUpdateSong }) {
+function EditSong({ onUpdateSong }) {
   const [ formData, setFormData ] = useState({
     title: "",
     artist: "",
@@ -15,6 +15,8 @@ function EditSong({ songToEdit, onUpdateSong }) {
   const { title, artist, image, album, genre, youtube } = formData
 
   const { id } = useParams()
+
+  const history = useHistory()
 
   const handleChange = (e) => {
     const key = e.target.name
@@ -42,13 +44,13 @@ function EditSong({ songToEdit, onUpdateSong }) {
     })
       .then(res => res.json())
       .then(updatedSong => onUpdateSong(updatedSong))
+    history.push('/')
   }
 
   return (
-    <section>
-        <form onSubmit={handleSubmit}className="form">
-          <h2>Edit Song</h2>
-          <p>Please select a song to edit in home if you haven't already!</p>
+    <section className="form">
+        <form onSubmit={handleSubmit}>
+          <h1>Edit Song</h1>
 
             <label>Title:</label>
             <input 
@@ -111,7 +113,7 @@ function EditSong({ songToEdit, onUpdateSong }) {
               onChange={handleChange}
             />
             <br></br>
-          <button type="submit" className="btn btn-primary btn-customized mt-4">Add Song</button>
+          <button type="submit" className="btn btn-primary btn-customized mt-4">Update Song</button>
         </form>
     </section>
   )

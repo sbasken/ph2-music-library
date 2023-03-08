@@ -2,7 +2,7 @@ import React from 'react'
 import Search from './Search'
 import SongList from './SongList'
 
-function Homepage({onSearch, songs, ondDeleteSong, onEditSong }) {
+function Homepage({onSearch, songs, ondDeleteSong }) {
 
   return (
     <div> 
