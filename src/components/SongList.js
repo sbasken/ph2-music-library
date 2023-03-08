@@ -1,11 +1,10 @@
 import React from 'react'
 import SongCard from './SongCard'
 
-function SongList() {
+function SongList({songs, ondDeleteSong, onEditSong }) {
   return (
     <div>
-        Testing
-        <SongCard />
+        {songs.map(song => <SongCard key={song.id} song={song} ondDeleteSong={ondDeleteSong}/>) }
     </div>
   )
 }

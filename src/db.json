@@ -1,0 +1,204 @@
+{
+  "Songs": [
+    {
+      "id": 1,
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg",
+      "album": "Led Zeppelin IV",
+      "genre": "classic rock",
+      "likes": false,
+      "youtube": "https://www.google.com/search?q=led+zeppelin+stairway+to+heaven+album&sxsrf=AJOqlzUCZzff4a3TKP-B0K2agX3zQ5RpRg:1678120457041&source=lnms&tbm=vid&sa=X&ved=2ahUKEwietO3t3cf9AhVxEDQIHTQGA9wQ_AUoAXoECAIQAw&biw=1056&bih=696&dpr=2#fpstate=ive&vld=cid:77b0b2eb"
+    },
+    {
+      "id": 2,
+      "title": "Spanish Castle Magic",
+      "artist": "Jimi Hendrix",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/85/Axiscover.jpg",
+      "album": "Axis: Bold as Love",
+      "genre": "classic rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=P6lDmcrRths"
+    },
+    {
+      "id": 3,
+      "title": "Tooth and Claw",
+      "artist": "Animals as Leaders",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/The_Joy_Of_Motion2014.jpg",
+      "album": "The Joy of Motion",
+      "genre": "progressive rock",
+      "likes": false,
+      "youtube": "https://www.google.com/search?q=Tooth+and+Claw+animals+as+leaders&biw=1056&bih=696&tbm=vid&sxsrf=AJOqlzU07zBy3g-GwE7a-TNZllcCpdIWuQ%3A1678120458661&ei=ChYGZM6DKMHg0PEP9I-uoA8&ved=0ahUKEwjOsNDu3cf9AhVBMDQIHfSHC_QQ4dUDCA0&uact=5&oq=Tooth+and+Claw+animals+as+leaders&gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyBQgAEIAEMgUIABCABDIICAAQFhAeEA8yCAgAEBYQHhAPMgYIABAWEB4yBQgAEIYDMgUIABCGAzIFCAAQhgMyBQgAEIYDOgQIIxAnOgoIABCABBAUEIcCOggIABCABBCxAzoHCCMQ6gIQJzoECAAQQzoKCAAQsQMQgwEQQzoLCAAQgAQQsQMQgwE6CAgAELEDEIMBOgUIABCRAjoHCAAQsQMQQzoHCAAQgAQQCjoICAAQFhAeEApQ8wZYzldgmlloAHAAeAKAAagBiAGXKZIBBDYzLjiYAQCgAQGwAQPAAQE&sclient=gws-wiz-video#fpstate=ive&vld=cid:bf18d2db,vid:9P4GsF1zdzM"
+    },
+    {
+      "id": 4,
+      "title": "Black Dog",
+      "artist": "Led Zeppelin",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg",
+      "album": "Led Zeppelin IV",
+      "genre": "classic rock",
+      "likes": false,
+      "youtube": "https://www.google.com/search?q=black+dog+led+zeppelin+lyrics&sxsrf=AJOqlzVLLwBjQOXIkwbmejYmjNkbvxF7rw:1678132328093&source=lnms&tbm=vid&sa=X&ved=2ahUKEwib-7SKisj9AhX1ADQIHXTgBIEQ_AUoAXoECAEQAw&biw=1056&bih=697&dpr=1#fpstate=ive&vld=cid:d765ae77,vid:s3yBf6LeWzo"
+    },
+    {
+      "id": 5,
+      "title": "Naive",
+      "artist": "The Kooks",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/80/Naive_cover.jpg",
+      "album": "Inside In/Inside Out",
+      "genre": "Alternative indie pop rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=jkaMiaRLgvY"
+    },
+    {
+      "id": 6,
+      "title": "All Blues",
+      "artist": "Miles Davis",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/MilesDavisKindofBlue.jpg",
+      "album": "Kind of Blue",
+      "genre": "Jazz",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=-488UORrfJ0"
+    },
+    {
+      "id": 7,
+      "title": "Crosstown Traffic",
+      "artist": "Jimi Hendrix",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f2/Jimi_Hendrix_-_Electric_Ladyland.jpg",
+      "album": "Electric Ladyland",
+      "genre": "classic rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=0NWYXJ04KCM"
+    },
+    {
+      "title": "Pink + White",
+      "artist": "Frank Ocean",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg",
+      "album": "Blonde",
+      "genre": "R&B",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=uzS3WG6__G4",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "title": "Mr. Brightside",
+      "artist": "The Killers",
+      "image": "https://i1.sndcdn.com/artworks-0Qb2s2Evp3AMws8y-1R6xCA-t500x500.jpg",
+      "album": "Hot Fuss",
+      "genre": "Alternative rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=gGdGFtwCNBE"
+    },
+    {
+      "id": 10,
+      "title": "Somebody That I Used to Know",
+      "artist": "Gotye",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/Gotye_featuring_Kimbra_-_Somebody_That_I_Used_to_Know.png",
+      "album": "Making Mirrors",
+      "genre": "Art pop alternative rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=8UVNT4wvIGY"
+    },
+    {
+      "id": 11,
+      "title": "Boulevard Of Broken Dreams",
+      "artist": "Green Day",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/Green_Day_-_Boulevard_of_Broken_Dreams_cover.jpg",
+      "album": "american idiot",
+      "genre": "emo hard rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=Soa3gO7tL-c"
+    },
+    {
+      "id": 12,
+      "title": "Time to Pretend",
+      "artist": "MGMT",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/61/200px-MGMT_Time_To_Pretend_7inch.jpg",
+      "album": "Electric Feel",
+      "genre": "indie synth rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=B9dSYgd5Elk"
+    },
+    {
+      "id": 13,
+      "title": "Seaside",
+      "artist": "The Kooks",
+      "image": "https://i1.sndcdn.com/artworks-wVyOAMyQqQqvMT69-jAwmiw-t500x500.jpg",
+      "album": "Inside In/Inside Out",
+      "genre": "alternative indie pop rock",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=qpnAKZgkZH8"
+    },
+    {
+      "id": 14,
+      "title": "Time is Running Out",
+      "artist": "Muse",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4c/Muse_tirocd.jpg",
+      "album": "Absolution",
+      "genre": "alternative rock indie progressive metal",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=O2IuJPh6h_A"
+    },
+    {
+      "id": 15,
+      "title": "Shadow Of The Day",
+      "artist": "Linkin Park",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a8/Shadow_of_the_Day_single.jpg",
+      "album": "Minutes To Midnight",
+      "genre": "alternative rock indie Metal",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=O2IuJPh6h_A"
+    },
+    {
+      "id": 16,
+      "title": "Get Lucky",
+      "artist": "Daft Punk",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/71/Get_Lucky.jpg",
+      "album": "Random Access Memories",
+      "genre": "disco funk pop",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=5NV6Rdv1a3I"
+    },
+    {
+      "id": 17,
+      "title": "Viva La Vida",
+      "artist": "Coldplay",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b2/Coldplay_-_Viva_la_Vida_or_Death_and_All_His_Friends.png",
+      "album": "Viva la Vida or Death and All His Friends",
+      "genre": "R&B soul alternative indie pop UK R&B",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=dvgZkm1xWPE"
+    },
+    {
+      "id": 18,
+      "title": "Chandelier",
+      "artist": "Sia",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/32/Sia_Chandelier.png",
+      "album": "Voices",
+      "genre": "pop",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=2vjPBrBU-TM"
+    },
+    {
+      "id": 19,
+      "title": "Umbrella",
+      "artist": "Rihanna",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/01/Rihanna_-_Umbrella.png",
+      "album": "Good Girl Gone Bad",
+      "genre": "R&B soul dance electronic pop",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=CvBfHwUxHIk"
+    },
+    {
+      "id": 20,
+      "title": "A&E",
+      "artist": "Goldfrapp",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Goldfrapp_-_A%26E.png",
+      "album": "Seventh Tree",
+      "genre": "alternative indie",
+      "likes": false,
+      "youtube": "https://www.youtube.com/watch?v=p7Ptai9I6eo"
+    }
+  ]
+}
