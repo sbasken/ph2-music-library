@@ -14,6 +14,7 @@ const linkStyles = {
 function NavBar() {
   return (
     <div className="navbar">
+      <div className="navbar column">
       <NavLink 
         exact 
         to="/"
@@ -45,16 +46,10 @@ function NavBar() {
       >
         New Form
       </NavLink>
-      {/* <NavLink 
-        to="/edit"
-        style={linkStyles}
-        activeStyle={{
-          background: "#0081e8"
-        }}
-        className="navbar button"
-      >
-        Edit Form
-      </NavLink> */}
+      </div>
+      <div className="navbar column">
+        <button id="toggleButton"> Dark Mode </button>
+      </div>
     </div>
   )
 }

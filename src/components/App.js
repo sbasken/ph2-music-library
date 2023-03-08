@@ -11,6 +11,7 @@ const SongAPI ="http://localhost:3000/Songs";
 function App() {
   const [songs, setSongs] = useState([]);
   const [filteredSongs, setFilteredSongs] = useState([]);
+  const [sort, setSort] =useState('')
 
   const updateSong = (updatedSong) => {
     const updatedSongs = songs.map(song => {
@@ -59,18 +60,44 @@ function App() {
     setFilteredSongs(filteredSongs);
   }
 
+const categorySelected = (e) => {
+  setSort(e.target.value)
+} 
 
+const byTitleorArtist =(songA, songB) => {
+  switch( sort ) {
+    case 'title' :
+    if (songA.title < songB.title) {
+      return -1
+    } else {
+      return 1
+    }
+    case 'artist' :
+      if (songA.artist < songB.artist) {
+        return -1
+      } else{
+        return 1
+      }
+  }
+}
+
+const sortSongs = [...filteredSongs].sort(byTitleorArtist)
 
 
   return (
     <div className="app container">
-      <div className="app row">
+      <div className="app">
         <NavBar />
       </div>
       <Switch>
          <Route exact path="/">
             <div className="row">
-              <Homepage songs={filteredSongs} onSearch={handleSearch} ondDeleteSong={deleteSong}/>
+              <Homepage 
+                songs={sortSongs} 
+                onSearch={handleSearch} 
+                ondDeleteSong={deleteSong}
+                onCategorySelected={categorySelected}
+              />
             </div>
          </Route>
          <Route path="/newform">

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function Search({onSearch}) {
+function Search({onSearch, onCategorySelected}) {
     const [searchTerm, setSearchTerm] = useState('');
     const [searchBy, setSearchBy] =useState('title');
     
@@ -14,21 +14,28 @@ function Search({onSearch}) {
         setSearchBy(e.target.value);
         onSearch(e.target.value, searchTerm);
     }
-    
 
 
   return (
     <div id="searchelements">
         <div id='Searchterm'>
-        <select value={searchBy} onChange={handleSearchByChange}>
-            <option value='title'>Title</option>
-            <option value='artist'>artist</option>
-            <option value='album'>album</option>
-            <option value='genre'>genre</option>
-        </select>
+            <select value={searchBy} onChange={handleSearchByChange}>
+                <option value='title'>Title</option>
+                <option value='artist'>artist</option>
+                <option value='album'>album</option>
+                <option value='genre'>genre</option>
+            </select>
         </div>
         <div id="search">
-        <input value={searchTerm} placeholder="search music here"onChange={handleSearchTermChange}></input>
+            <input value={searchTerm} placeholder="search music here"onChange={handleSearchTermChange}></input>
+        </div>
+        <div>
+            <label>Sort the songs by:  </label>
+                <select onChange={onCategorySelected}>
+                    <option value=""></option>
+                    <option value="title">title</option>
+                    <option value="artist">artist</option>
+                </select>
         </div>
     </div>
   )
