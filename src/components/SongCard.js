@@ -16,7 +16,7 @@ const Back =({song}) => {
     <div>
       <h2>Album: {song.album}</h2>
       <h3>{song.genre}</h3>
-      <a href={song.youtube}>Youtube Link</a>
+      <a href={song.youtube} target="_blank">Youtube Link</a>
     </div>
   )
 }
