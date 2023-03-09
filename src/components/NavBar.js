@@ -47,9 +47,6 @@ function NavBar() {
         New Form
       </NavLink>
       </div>
-      <div className="navbar column">
-        <button id="toggleButton"> Dark Mode </button>
-      </div>
     </div>
   )
 }
