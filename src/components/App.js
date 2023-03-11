@@ -5,6 +5,8 @@ import NewForm from "./NewForm";
 import About from "./About";
 import { useState, useEffect } from "react"
 import EditSong from "./EditSong"
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 const SongAPI ="http://localhost:3000/Songs";
 

@@ -19,6 +19,7 @@ function Search({onSearch, onCategorySelected}) {
   return (
     <div id="searchelements">
         <div id='Searchterm'>
+            <label>search by: </label>
             <select value={searchBy} onChange={handleSearchByChange}>
                 <option value='title'>Title</option>
                 <option value='artist'>artist</option>
@@ -30,12 +31,12 @@ function Search({onSearch, onCategorySelected}) {
             <input value={searchTerm} placeholder="search music here"onChange={handleSearchTermChange}></input>
         </div>
         <div>
-            <label>Sort the songs by:  </label>
-                <select onChange={onCategorySelected}>
-                    <option value=""></option>
-                    <option value="title">title</option>
-                    <option value="artist">artist</option>
-                </select>
+            <label>sort the songs by:  </label>
+            <select onChange={onCategorySelected}>
+                <option value=""></option>
+                <option value="title">title</option>
+                <option value="artist">artist</option>
+            </select>
         </div>
     </div>
   )

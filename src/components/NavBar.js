@@ -2,11 +2,13 @@ import React from 'react'
 import { NavLink } from "react-router-dom"
 
 const linkStyles = {
-  display: "inline-block",
+  display: "flex",
+  "justify-content": "center",
   width: "80px",
   padding: "12px",
   margin: "0 6px 6px",
-  background: "#78d5ff",
+  background: "grey",
+  opacity: "90%",
   textDecoration: "none",
   color: "white"
 };
@@ -20,7 +22,7 @@ function NavBar() {
         to="/"
         style={linkStyles}
         activeStyle={{
-          background: "#0081e8"
+          background: "black"
         }}
         className="navbar button"
       >
@@ -30,7 +32,7 @@ function NavBar() {
         to="/about"
         style={linkStyles}
         activeStyle={{
-          background: "#0081e8"
+          background: "black"
         }}
         className="navbar button"
       >
@@ -40,7 +42,7 @@ function NavBar() {
         to="/newform"
         style={linkStyles}
         activeStyle={{
-          background: "#0081e8"
+          background: "black"
         }}
         className="navbar button"
       >
