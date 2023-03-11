@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Front =({ song }) => {
   return (
     <div>
-      <h4>{song.title}</h4>
+      <h5>{song.title}</h5>
       <p>By {song.artist}</p>
       <img src={song.image} id="albumcover"/>
     </div>
@@ -14,7 +14,7 @@ const Front =({ song }) => {
 const Back =({song}) => {
   return(
     <div>
-      <h3>Album: {song.album}</h3>
+      <h5>Album: {song.album}</h5>
       <p>{song.genre}</p>
       <a href={song.youtube} target="_blank">Youtube Link</a>
     </div>
