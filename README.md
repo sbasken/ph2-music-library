@@ -5,10 +5,9 @@ Description: This is a music library single page site built with react.js using 
 
 
 
-
-https://user-images.githubusercontent.com/120995506/224138209-5c64dc63-eec3-43c0-b8e3-cff6607ecb00.mov
+https://user-images.githubusercontent.com/120995506/224454554-9309d64c-5ba0-41ea-86a8-f7f774369085.mov
 
 
 Responsive design:
 
-![Alt Text](https://media.giphy.com/media/WyNJPye4RyMREzscUA/giphy.gif)
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmY4ZDM2MzYxYzEyZDA4ZDllMzEzYzNjZGYyNzNlNTRjMWNlYzNjNSZjdD1n/fyrQqfWaPNqES1Tynd/giphy.gif)
